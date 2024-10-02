@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Павлеса Олег ПП-21</title>
+    </head> 
+    <body>
+        <script>
+            function addTwo(x) { 
+                return x + 2;
+            }
+
+            function calculateResult(num, operation) { 
+                return operation(num) * 2 + 10;
+            }
+
+            let result = calculateResult(5, addTwo); 
+            document.write("<h2> result =", result);
+        </script>
+    </body>
+</html>
